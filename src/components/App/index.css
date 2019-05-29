@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+.app {
+  margin: 20px;
+}
+body {
+  padding-top: 50px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+  .titleDiv {
+    padding: 0 0 0 32px;
+  }
+  #sidebar {
+    margin: 2em 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .titleDiv {
+    padding: 10px;
+    margin: 17px 0 0 0;
+  }
+}
+li {
+  list-style-type: none;
+  margin: 0 0 10px 0;
+}
+ul {
+  padding: 0px;
+}
+.jumbotron {
+  padding: 17px;
+}
+.prow {
+  padding: 0 0 2em 0;
+}
+.prow b,
+.titleDiv {
+  font-size: 1.5em;
+  color: black;
+}
+.titleDiv p {
+  margin: 5px 0 0 0;
+  font-size: 0.8em;
+  line-height: 20px;
+  color: grey;
+}
+
+.slick-dots li button:before {
+  font-size: 34px;
+  line-height: 0px;
+  top: -40px;
+}
+
+/* The heart of the matter */
+.testimonial-group > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.testimonial-group > .row > .thum {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+}
+
+/* Decorations */
+.thum {
+  margin: 7px;
+  padding: 12px;
+}
