@@ -2,7 +2,6 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import logo from "/public/bush.jpeg";
 
 var settings = {
   dots: true,
@@ -19,7 +18,6 @@ const LandingPage = () => (
     <p>
       The Landing Page is open to everyone, even though the user isn't signed
       in.
-      <img src={logo} alt="" />
     </p>
     <div className="row">
       <li className="col-xs-12 col-lg-12 prow">
